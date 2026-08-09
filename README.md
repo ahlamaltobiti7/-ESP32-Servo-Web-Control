@@ -160,7 +160,7 @@ The real circuit contains:
 
 ### Real Hardware Circuit
 
-![Real Hardware Circuit](Real%20Hardware%20Circuit.png)
+![Real Hardware Circuit](hardwear.jpg)
 
 ---
 
@@ -295,9 +295,7 @@ After successful simulation, the same circuit and program were implemented and t
 
 ### Demo Video
 
-![Project Demonstration](Demo%20Video.png)
-
-[Watch the Project Demonstration](YOUR_VIDEO_LINK)
+[Watch the Project Demonstration](demo.MOV)
 
 ---
 
