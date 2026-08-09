@@ -137,10 +137,10 @@ The Wokwi simulation files are included in this repository:
 
 ~~~text
 diagram.json
-sketch.ino
+esp32_servo_wed.ino
 ~~~
 
-The `diagram.json` file contains the complete circuit configuration, while `sketch.ino` contains the ESP32 control program.
+The `diagram.json` file contains the complete circuit configuration, while `esp32_servo_wed.ino` contains the ESP32 control program.
 
 ---
 
