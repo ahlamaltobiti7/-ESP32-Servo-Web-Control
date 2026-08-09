@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "author": "Ahlam",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": 170,
+      "left": 250,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "red",
+      "top": -90,
+      "left": 250,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "yellow",
+      "top": -20,
+      "left": 250,
+      "attrs": {
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -90,
+      "left": 180,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": -20,
+      "left": 180,
+      "attrs": {
+        "value": "220"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "esp:25",
+      "r1:1",
+      "green"
+    ],
+    [
+      "r1:2",
+      "red:A",
+      "green"
+    ],
+    [
+      "red:C",
+      "esp:GND.1",
+      "black"
+    ],
+    [
+      "esp:26",
+      "r2:1",
+      "green"
+    ],
+    [
+      "r2:2",
+      "yellow:A",
+      "green"
+    ],
+    [
+      "yellow:C",
+      "esp:GND.1",
+      "black"
+    ],
+    [
+      "servo1:PWM",
+      "esp:27",
+      "orange"
+    ],
+    [
+      "servo1:V+",
+      "esp:5V",
+      "red"
+    ],
+    [
+      "servo1:GND",
+      "esp:GND.2",
+      "black"
+    ]
+  ]
+}
